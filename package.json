@@ -1,0 +1,29 @@
+{
+  "name": "ramda-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "day1a": "nodemon -w day1a.js -x babel-node day1a.js",
+    "day1b": "nodemon -w day1b.js -x babel-node day1b.js",
+    "day2a": "nodemon -w day2a.js -x babel-node day2a.js",
+    "day2b": "nodemon -w day2b.js -x babel-node day2b.js",
+    "day3a": "nodemon -w day3a.ts -x ts-node day3a.ts",
+    "day3b": "nodemon -w day3b.ts -x ts-node day3b.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ramda": "^0.27.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@types/node": "^14.14.10",
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.2"
+  }
+}
